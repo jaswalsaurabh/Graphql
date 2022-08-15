@@ -1,3 +1,39 @@
-button{
-    color: green;
+.main{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.nav{
+    width: 60%;
+    height: 100px;
+    border: 1px solid grey;
+    overflow:scroll ;
+}
+.fix{
+    width: 40px;
+    height: 10px;
+    background-color: green;
+    position: fixed;
+    top: 32px;
+    left: 40px;
+}
+
+.pos{
+    height: 300px;
+    width: 20%;
+    border: 1px solid grey;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+.sticky-main{
+    overflow: scroll;
+    height: 40vh;
+}
+.sticky-nav{
+    height: 60px;
+    background-color: greenyellow;
+    position: sticky;
+    top: 0;
 }
